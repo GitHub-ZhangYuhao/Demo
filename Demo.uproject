@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{EDA6FC28-457D-8843-BADF-FCB00094611A}",
+	"EngineAssociation": "{D064472E-4BB2-6DE5-BCA8-F8B2559631E7}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Demo",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
